@@ -1,0 +1,566 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 16px;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    background-color: #f5f5f7;
+
+}
+
+
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+#customer_simple_header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.logo_img{
+    background-image: url(MEDIA/LOGO/logo_arancione.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+
+.S_icon{
+    height: 24px;
+}
+
+.M_icon{
+    height: 46px;
+    width: 60px;
+}
+
+.nav_customer_header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.nav_item{
+    height: 90%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 2%;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+}
+
+a, a:hover, a:focus, a:active, a:visited{
+    text-decoration: none;
+}
+
+.blue_link{
+    color: #0071eb;
+}
+
+.blue_link:hover{
+    color: #004fa3;
+}
+
+.dropdw_big_container{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 100%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dropdown_item_container{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 6%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 5%;
+    color: black;
+    border-radius: 20px;
+}
+.icon-menu{
+    height: 25px;
+    cursor: pointer;
+}
+
+.dropdown_item{
+    margin-left: 4%
+}
+
+.dropdown_item_container:hover{
+    background-color: #0072eb66;
+}
+
+.modal-view{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100wh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 4;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-view .modal-container{
+    background-color: #f5f5f7;
+    border-radius: 40px;
+    width: 460px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.c-modal-header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.c-modal-header-title{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.modal-container .c-modal-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.form_modal_view{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.currency_option{
+    background-color: #f5f5f7;
+    width: 30%;
+    text-align: center;
+    padding: 2% 5%;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.currency_option:hover{
+    background-color: #0072eb66;
+}
+
+.currency_option.selected{
+    background-color: rgba(49, 203, 116, 0.567);
+}
+
+
+
+
+
+#activityContainer{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+.activity_header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+
+#place {
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+
+/* Stile per l'elemento h1 con id "title" */
+#title {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: 90%;
+}
+
+
+#activity_type {
+    margin-top: 1.5%;
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.act_header_des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+
+.reviewsAndOperator_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 70%;
+}
+
+.reviewScoreContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 30%;
+}
+
+.scoreReviewStars img {
+    height: 20px;
+
+}
+
+
+.scoreNum {
+    margin-left: 2%;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.numReview {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+
+#Operator {
+    margin-left: 5%;
+    color: #0071eb;
+    font-size: 0.8rem;
+}
+
+
+.like_container {
+    min-width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.icon_container{
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #f5f5f7;
+    border: 1px solid #0071eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+.icon_container:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.des_like {
+    margin-left: -7%;
+    background-color: #0072ebdf;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3.4% 8%;
+    z-index: 3;
+} 
+
+
+
+.img_activity{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 2%;
+}
+
+
+.short_des{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.service{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+.service_des{
+    margin-left: 1%;
+}
+
+.info_container{
+    display: flex;
+    width: 90%;
+    height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid rgb(178, 178, 178);
+
+}
+
+.subSection{
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.subSection[data-content="price"]{
+    padding: 2%;
+    background-color: #e0e9f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 0;
+}
+
+
+.titleSection{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-height: 95%;
+    min-width: 40%;
+    font-weight: 600;
+}
+
+.textSection{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-height: 95%;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.info{
+    margin-bottom: 2%;
+}
+
+
+
+.activity_price{
+    margin-left: 1%;
+}
+
+
+.Recensioni {
+    padding: 3%;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    overflow-y: auto;
+    max-height: 460px;
+}
+
+.reviewBigContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.reviewContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2%;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3%;
+}
+
+.header_review {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.score {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0071eb; /* Orange color for score */
+}
+
+.user {
+    font-size: 1rem;
+    color: #333;
+}
+
+.reviewText {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+#reviewForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 3% auto;
+    padding: 4%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#reviewForm label {
+    margin-bottom: 1%;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+}
+
+#reviewForm input[type="number"],
+#reviewForm input[type="text"] {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 3%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+#reviewForm input[type="number"]::placeholder,
+#reviewForm input[type="text"]::placeholder {
+    color: #999;
+}
+
+#reviewForm input[type="submit"] {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 2%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#reviewForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+.price.old{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.price.new{
+   color: orangered;
+}
+
+
+.error_message{
+    color: #ff4000;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+}
+
+.deleteReview{
+   
+    width: 92%;
+    margin: auto;
+    margin-left: 2%;
+    background-color: rgb(253, 77, 77);
+    color: white;
+    padding: 2% 3%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.deleteReview:hover{
+    background-color: rgb(162, 0, 0);
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.modal-container.error_view{
+    background-color: #ff5533;
+    color: #831e0a;
+    text-align: center;
+}

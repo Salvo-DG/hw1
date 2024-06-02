@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 16px;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    background-color: #f5f5f7;
+
+}
+
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+#partner_home_header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.logo_img{
+    background-image: url(MEDIA/LOGO/logo_arancione.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+
+.S_icon{
+    height: 24px;
+}
+
+.M_icon{
+    height: 46px;
+    width: 60px;
+}
+
+.nav_partner_header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.nav_item{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    text-align: center;
+    width: 18%;
+    position: relative;
+}
+
+a, a:hover, a:focus, a:active, a:visited{
+    text-decoration: none;
+}
+
+.blue_link{
+    color: #0071eb;
+}
+
+.blue_link:hover{
+    color: #004fa3;
+}
+
+.dropdw_big_container{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.dropdown_item_container{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 6%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 5%;
+    color: black;
+    border-radius: 20px;
+}
+
+.dropdown_item{
+    margin-left: 4%
+}
+
+.dropdown_item_container:hover{
+    background-color: #0072eb66;
+}
+
+#main_section{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.container_ex{
+    width: 50%;
+    border: 1px solid #dadadb;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.container_in{
+    width: 90%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+
+    font-size: 0.9rem;
+}
+.input_title{
+    margin-bottom: 6%;
+}
+
+.check_container{
+    display: flex;
+    align-items: center;
+}
+
+.input_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.input_des, label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.M_select{
+    font-family: "Poppins",sans-serif ;
+    border-radius: 10px;
+    padding: 2%;
+    width: 60%;
+    border: 2px solid #dadadb;
+}
+
+.S_select{
+    font-family: "Poppins",sans-serif ;
+    border-radius: 10px;
+    padding: 2%;
+    width: 45%;
+    border: 2px solid #dadadb;
+}
+input{
+    font-family: "Poppins", sans-serif;
+}
+
+textarea{
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px ;
+    border: 2px solid #dadadb;
+    padding: 2%;
+    width: 90%;
+}
+
+textarea:focus{
+    outline: none;
+    border-color: #0071eb;
+}
+
+.L_input_text{
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid #dadadb;
+    width: 90%;
+}
+
+.XS_input_text{
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid #dadadb;
+    width: 40%;
+}
+input:focus{
+    border-color: #0071eb;
+    outline: none;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+
+
+#main_section span, .pass_check{
+    margin-top: 1%;
+    font-weight: 600;
+    color: #63687a;
+    font-size: 0.8rem;
+}
+
+.L_in_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.S_input_text{
+    width: 90%;
+    border-radius: 10px;
+    padding: 4%;
+    border: 2px solid #dadadb;
+}
+
+.check_and_des{
+    display: flex;
+    align-items: center;
+}
+
+#main_section .checkb_des{
+    margin: 0;
+    font-size: 0.9 rem;
+    font-weight: 400;
+    color: black;
+}
+
+.end_button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+
+.variable_input_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main_info{
+    margin-bottom: 2%;
+}
+
+
+.add_remove_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+}
+
+.remove_button{
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: white;
+    padding: 1% 4%;
+    background-color: #ff4d00;
+    width:fit-content;
+    margin-right: 2%;
+}
+
+.add_button{
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: white;
+    padding: 1% 4%;
+    background-color: #0071eb;
+    width:fit-content;
+}
+
+.add_button:hover{
+    background-color: #004fa3;
+}
+
+input[type="submit"]{
+    background-color: #0071eb;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 2.5% 20%;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+
+
+input[type="submit"]:hover{
+    background-color: #004fa3;
+}
+
+
+.pass_check{
+margin-left: 2%;
+}
+
+.valid{
+    border-color: rgb(0, 173, 0);
+}
+
+.unvalid{
+    border-color: #ff4000;
+}
+
+
+.gen_error_message, .over_error_message{
+    color: #ff4000;
+    margin-top: 1%;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.errore{
+    background-color: rgba(255, 0, 0, 0.329);
+    color: rgb(202, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 35%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 6%;
+    border-radius: 20px;
+}

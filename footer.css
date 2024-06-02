@@ -1,0 +1,181 @@
+footer {
+    width: 100vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: rgb(26, 43, 73);
+    /**background: linear-gradient(to bottom, rgba(26, 43, 73, 0.877), rgb(26, 43, 73) );*/
+    color: white;
+}
+
+#footer-scheme{
+    max-width: 1200px;
+    margin:auto;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navigation_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+
+
+.navigation_link_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90%;
+    margin-right: 2%;
+}
+.title-footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-icon{
+    height: 30px;
+    display: none;
+}
+
+.link-footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation_link_block_small{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5%;;
+}
+
+footer select{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 4% 3%;
+    width: 300px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.link-appstore{
+    margin-bottom: 30%;
+    text-decoration: none;
+}
+
+.link-appstore:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.app-store-img{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 3%;
+
+}
+
+.link-footer:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.navigation_bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    text-align: center;
+
+}
+
+.social_links_nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.social_link{
+    width: 3%;
+    margin-right: 4%;
+    text-align: end;
+}
+.logo_social_img{
+    width: 80%;
+    height: auto;
+}
+
+.payment-methods-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170px;
+    height: 80px;
+}
+
+.payment-method{
+    height: 20px;
+    width: 31px;
+    margin-right: 4px;
+    object-fit: cover;
+}
+
+
+@media (max-width:500px){
+    #footer-scheme{
+        max-width: 300px;
+        margin:auto;
+    }
+    .navigation_links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation_link_block{
+        width: 80%;
+    }
+    .navigation_link_block_small{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    .link-appstore{
+        margin-bottom: 10%;
+    }
+    .navigation_bar{
+        flex-direction: column;
+        margin:auto;
+        margin-top: 5%;
+
+    }
+    .social_links_nav{
+        justify-content: space-evenly;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .social_link{
+        width: 6%;
+    }
+
+    .arrow-icon{
+        display: inline-block;
+    }
+
+
+}

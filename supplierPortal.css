@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 16px;
+    line-height: 1.375rem;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif;
+    background-color: #f5f5f7;
+
+}
+
+/**Formato del testo*/
+h1{
+    color: f5f5f7;
+    font-size: 4.3rem;
+    font-weight: 700;
+    line-height:5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.1rem;
+}
+
+/**-----------------------------------------------------------*/
+
+/**Dimensioni delle icone*/
+.XS_icon{
+    width: 25px;
+}
+
+.M_icon{
+    height: 46px;
+    width: 58px;
+}
+
+.S_Icon_with_back{
+    width: 35px;
+    background-color: #ff4000;
+    padding: 8%;
+    border-radius: 60px;
+
+}
+
+/**-----------------------------------------------------------*/
+
+/**Design dei bottoni*/
+
+.blue_button{
+    background-color: #0071eb;
+    color: #f5f5f7;
+}
+
+.bbutton_hover{
+    background-color: #004fa3;
+}
+
+/**-----------------------------------------------------------*/
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+}
+
+#simpleHeader{
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+
+.logo_img{
+    background-image: url(MEDIA/LOGO/logo_arancione.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+a, a:hover, a:focus, a:active, a:visited{
+    text-decoration: none;
+}
+
+.blue_link{
+    color: #0071eb;
+}
+
+.blue_link:hover{
+    color: #004fa3;
+}
+
+.leftIcon_with_des{
+    width: 7%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0071eb;
+}
+
+
+.L_Image_pageSection{
+    height: 600px;
+    background-image: url(MEDIA/SFONDI/img_portal1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.M_Image_pageSection{
+    height: 400px;
+    background-image: url(MEDIA/SFONDI/img_portal2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+}
+
+.L_Img_Title{
+    height: 30%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.M_Img_Title{
+    max-width: 800px;
+    text-align: center;
+}
+
+.M_Img_Des{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.L_Img_button{
+    width: 14%;
+    height: 12%;
+    margin-top: 1%;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.M_pinksec_button{
+    width: 14%;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.NoBack_section{
+    width: 100vw;
+}
+
+.align_div_section {
+    max-width: 1200px;
+    
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon_with_below_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 25%;
+}
+
+.small_paragraph_center{
+    margin-top: -2%;
+    text-align: center;
+}
+
+
+.pink_section_with_Title{
+    width: 100vw;
+    background-color: #ffe9e3;
+}
+.align_div_sec_wT{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+
+}
+
+.section_Title{
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.align_div_sec_wT .align_div{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.step-div{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.align_div_asks{
+    max-width: 800px;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#title_asks{
+    text-align: center;
+    margin-bottom: 11%;
+}
+
+.ask_answer{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid lightgray;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+.ask_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.arrowDown{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
